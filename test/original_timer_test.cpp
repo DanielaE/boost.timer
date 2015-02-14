@@ -44,7 +44,7 @@ int main() {
   cout << loops << " iterations"<< endl;
     
   long i;
-  bool time_waster; // defeat [some] optimizers by storing result here
+  bool time_waster = true; // defeat [some] optimizers by storing result here
 
   progress_timer pt;
   timer t1;

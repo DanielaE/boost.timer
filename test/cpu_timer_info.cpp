@@ -20,7 +20,7 @@ using boost::timer::cpu_timer;
 using boost::timer::auto_cpu_timer;
 using std::cout; using std::endl;
 
-int cpp_main( int argc, char * argv[] )
+int cpp_main( int, char *[] )
 {
   cout << '\n';
   cout << "For cpu_times.wall, the underlying clock "
